@@ -4,12 +4,12 @@
 Released COVIDNet-SSL models are based on ResNet-50 architecture with self-supervised pre-training on the SimCLR framework. Input shape is (3, 244, 244). Below are simple instructions for training, evaluation and validation using these models. 
 
 ## Requirements
-PyTorch 1.8.0
-Python 3.6
-Numpy
-Scikit-Learn
-Matplotlib
-TensorBoard Logger
+- PyTorch 1.8.0
+- Python 3.6
+- Numpy
+- Scikit-Learn
+- Matplotlib
+- TensorBoard Logger
 
 ### Directly installing conda environment
 To install the conda enviroment on Windows, run
