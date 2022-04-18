@@ -43,7 +43,7 @@ python train.py --help
 
 ## Steps for evaluation
 We provide you with the PyTorch evaluation script, eval.py. This script will evaluate a given checkpoint; it will calculate top-1 accuracy, ROC-AUC, trust score, as well as precision, recall and F1 for each class. 
-To evaluate:e
+To evaluate:
 1. Locate the checkpoint files
 2. To evaluate a checkpoint for COVIDNet-SSL:
 ```
