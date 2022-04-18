@@ -1,7 +1,7 @@
 # Training/Evaluation/Inference with COVIDNet-SSL
 
 ## Introduction
-Released COVIDNet-SSL models are based on ResNet-50 architecture with self-supervised pre-training on the SimCLR framework. Input shape is (3, 244, 244). Below are simple instructions for training, evaluation and validation using these models. 
+Released COVIDNet-SSL models are based on ResNet-50 backbone with self-supervised pre-training on the SimCLR framework. Input shape is (3, 244, 244). Below are simple instructions for training, evaluation and validation using these models. 
 
 ## Requirements
 - PyTorch 1.8.0
