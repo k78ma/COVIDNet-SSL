@@ -31,9 +31,9 @@ To train:
 2. For basic training from the COVIDNet-SSL pretrained model:
 ```
 python train.py \
-  --ckpt-path 'checkpoints/COVIDNet-SSL.ckpt'
-  --data-dir '../archive'
-  --exp-dir './train_folder'
+  --ckpt-path 'checkpoints/COVIDNet-SSL.ckpt' \
+  --data-dir '../archive' \
+  --exp-dir './train_folder' \
   --optim 'SGD'
 ```
 3. For more options and information:
@@ -48,8 +48,8 @@ To evaluate:e
 2. To evaluate a checkpoint for COVIDNet-SSL:
 ```
 python train.py \
-  --ckpt-path 'checkpoints/COVIDNet-SSL.ckpt'
-  --data-dir '../archive'
+  --ckpt-path 'checkpoints/COVIDNet-SSL.ckpt' \
+  --data-dir '../archive' \
   --exp-dir './train_folder'
 ```
 3. For more options and information:
@@ -64,8 +64,8 @@ python eval.py --help
 3. To use inference script for COVIDNet-SSL:
 ```
 python inferene.py \
-  --ckpt-path 'checkpoints/COVIDNet-SSL.ckpt'
-  --img-path '../archive/test/MIDRC-RICORD-1C-419639-002463-12463-0.png'
+  --ckpt-path 'checkpoints/COVIDNet-SSL.ckpt' \
+  --img-path '../archive/test/MIDRC-RICORD-1C-419639-002463-12463-0.png' \
   --exp-dir './inference_folder'
 ```
 4. For more options and information:
