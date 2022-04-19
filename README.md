@@ -32,7 +32,16 @@ To activate the conda enviroment, run
 conda activate covid-net
 ```
 ## Data Directory Structure
-Instructions for creating the COVIDx9B dataset can be found at [the main COVID-Net repository.](https://github.com/lindawangg/COVID-Net)
+Instructions for creating the COVIDx9B dataset can be found at the [main COVID-Net repository.](https://github.com/lindawangg/COVID-Net)
+For COVIDNet-SSL, the data directory is structured as such:
+```
+├── archive
+│   ├── test
+│   ├── test_8B.txt
+│   ├── train
+│   └── train_8B.txt
+```s
+The "archive" folder is in the parent directory of the COVIDNet-SSL training, evaluation and inference scripts, such that it should be referred to as "../archive". This archive folder then contains "train" and "test" folders, which contain training and evaluation images respectively, as well as corresponding .txt files containing file names, classes and data sources. Please refer to the main COVID-Net repository linked above for more information on datasets.
 
 ## Steps for training
 We provide you with the PyTorch training script, train.py. This script will train starting from a specified checkpoint; after training, it will save five checkpoints: best validation accuracy, best AUC, best F1, lowest validation loss, and last epoch. It will also create training logs and various diagrams such as validation loss curves and learning rate graphs.
@@ -42,7 +51,7 @@ To train:
 ```
 python train.py \
   --ckpt-path '/path/to/COVIDNet_SSL_50AUC.ckpt' \
-  --data-dir '/path/to/data-dir' \
+  --data-dir '../archive' \
   --exp-dir './train_folder' \
   --optim 'SGD'
 ```
@@ -59,7 +68,7 @@ To evaluate:
 ```
 python train.py \
   --ckpt-path '/path/to/COVIDNet_SSL_50AUC.ckpt' \
-  --data-dir '/path/to/data-dir' \
+  --data-dir '../archive' \
   --exp-dir './train_folder'
 ```
 3. For more options and information:
