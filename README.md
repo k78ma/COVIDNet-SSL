@@ -40,7 +40,7 @@ For COVIDNet-SSL, the data directory is structured as such:
 │   ├── test_8B.txt
 │   ├── train
 │   └── train_8B.txt
-```s
+```
 The "archive" folder is in the parent directory of the COVIDNet-SSL training, evaluation and inference scripts, such that it should be referred to as "../archive". This archive folder then contains "train" and "test" folders, which contain training and evaluation images respectively, as well as corresponding .txt files containing file names, classes and data sources. Please refer to the main COVID-Net repository linked above for more information on datasets.
 
 ## Steps for training
