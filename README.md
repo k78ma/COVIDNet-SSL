@@ -72,7 +72,7 @@ python eval.py --help
 ```
 python inferene.py \
   --ckpt-path '/path/to/COVIDNet_SSL_50AUC.ckpt' \
-  --img-path '/path/to/' \
+  --img-path '/path/to/image' \
   --exp-dir './inference_folder'
 ```
 4. For more options and information:
