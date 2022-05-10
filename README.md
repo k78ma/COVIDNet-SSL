@@ -18,6 +18,8 @@ Released COVIDNet-SSL models are based on ResNet-50 backbone with self-supervise
 - Matplotlib
 - TensorBoard Logger
 
+For all requirements, see "requirements.txt".
+
 ### Directly installing conda environment
 To install the conda enviroment on Windows, run
 ```
