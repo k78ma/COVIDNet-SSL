@@ -1,11 +1,11 @@
 # Training/Evaluation/Inference with COVIDNet-SSL
 
 ## Models
-COVID-Net
+We include our flagship model, COVID-Net CXR-SSL, as well as second high-performing model, COVID-Net SSL-100.
 |  Type | Input Resolution | COVID-19 Sensitivity |        Model        |
 |:-----:|:----------------:|:--------------------:|:-------------------:|
-|  ckpt |      224x224     |         98.0         |[COVIDNet-SSL-50-AUC](https://drive.google.com/drive/folders/1iB1GA1q73usP5sLjkpb6t_WvGhP2_ZKm?usp=sharing)|
-|  ckpt |      224x224     |         97.6         |[COVIDNet-SSL-100-CE](https://drive.google.com/drive/folders/1iB1GA1q73usP5sLjkpb6t_WvGhP2_ZKm?usp=sharing)|
+|  ckpt |      224x224     |         98.0         |[COVID-Net CXR-SSL](https://drive.google.com/drive/folders/1iB1GA1q73usP5sLjkpb6t_WvGhP2_ZKm?usp=sharing)|
+|  ckpt |      224x224     |         97.6         |[COVID-Net SSL-100](https://drive.google.com/drive/folders/1iB1GA1q73usP5sLjkpb6t_WvGhP2_ZKm?usp=sharing)|
 
 ## Introduction
 Released COVIDNet-SSL models are based on ResNet-50 backbone with self-supervised pre-training on the SimCLR framework. Input shape is (3, 244, 244). Below are simple instructions for training, evaluation and validation using these models. 
