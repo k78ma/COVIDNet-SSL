@@ -1,3 +1,5 @@
+Do not use this repository for self-diagnosis. You should check with your local authorities for the latest advice on seeking medical assistance.
+
 # Training/Evaluation/Inference with COVIDNet-SSL
 
 ## Models
