@@ -1,7 +1,7 @@
 **Do not use this repository for self-diagnosis. You should check with your local authorities for the latest advice on seeking medical assistance.**
 
 Paper: <https://arxiv.org/abs/2212.02764> <br>
-![CVIS Poster] (oster:TRUDLMIA.jpg)
+![CVIS Poster](TRUDLMIA.jpg)
 
 # Training/Evaluation/Inference with COVIDNet-SSL
 
